@@ -1,0 +1,27 @@
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  flex-grow: 1;
+  margin: 10px;
+  max-width: 400px;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.text {
+  padding: 10px;
+}
+
+.text h2 {
+  font-size: 16px;
+}
